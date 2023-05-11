@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Sunnahs</h1>
+
+<div id="sunnahs">
+  <% @sunnahs.each do |sunnah| %>
+    <%= render sunnah %>
+    <p>
+      <%= link_to "Show this sunnah", sunnah %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New sunnah", new_sunnah_path %>

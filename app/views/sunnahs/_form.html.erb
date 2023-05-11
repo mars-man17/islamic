@@ -1,0 +1,77 @@
+<%= form_with(model: sunnah) do |form| %>
+  <% if sunnah.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(sunnah.errors.count, "error") %> prohibited this sunnah from being saved:</h2>
+
+      <ul>
+        <% sunnah.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :hadith, style: "display: block" %>
+    <%= form.text_area :hadith %>
+  </div>
+
+  <div>
+    <%= form.label :status, style: "display: block" %>
+    <%= form.text_field :status %>
+  </div>
+
+  <div>
+    <%= form.label :book, style: "display: block" %>
+    <%= form.text_field :book %>
+  </div>
+
+  <div>
+    <%= form.label :volume, style: "display: block" %>
+    <%= form.text_field :volume %>
+  </div>
+
+  <div>
+    <%= form.label :isnad, style: "display: block" %>
+    <%= form.text_area :isnad %>
+  </div>
+
+  <div>
+    <%= form.label :adalah, style: "display: block" %>
+    <%= form.text_area :adalah %>
+  </div>
+
+  <div>
+    <%= form.label :irsal, style: "display: block" %>
+    <%= form.text_area :irsal %>
+  </div>
+
+  <div>
+    <%= form.label :tawatur, style: "display: block" %>
+    <%= form.text_area :tawatur %>
+  </div>
+
+  <div>
+    <%= form.label :matn, style: "display: block" %>
+    <%= form.text_area :matn %>
+  </div>
+
+  <div>
+    <%= form.label :asbabalwurud, style: "display: block" %>
+    <%= form.text_area :asbabalwurud %>
+  </div>
+
+  <div>
+    <%= form.label :tags, style: "display: block" %>
+    <%= form.text_area :tags %>
+  </div>
+
+  <div>
+    <%= form.label :slug, style: "display: block" %>
+    <%= form.text_field :slug %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

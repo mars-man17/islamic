@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @sunnah %>
+
+<div>
+  <%= link_to "Edit this sunnah", edit_sunnah_path(@sunnah) %> |
+  <%= link_to "Back to sunnahs", sunnahs_path %>
+
+  <%= button_to "Destroy this sunnah", @sunnah, method: :delete %>
+</div>

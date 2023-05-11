@@ -1,0 +1,65 @@
+.site-name {
+  position: absolute;
+  top: 6%;
+  left: 43.6%;
+  width: 13%;
+  height: auto%;
+  z-index: 0;
+}
+.crescent {
+  position: absolute;
+  top: 7.9%;
+  left: 82.4%;
+  width: 2.4%;
+  height: auto%;
+  z-index: 0;
+}
+.page {
+  position: absolute;
+  top: 25.8%;
+  left: 16.5%;
+  width: 67%;
+  height: 65%;
+  z-index: 0;
+}
+.page-base {
+  position: absolute;
+  top: 24.4%;
+  left: 15.75%;
+  width: 68.5%;
+  height: 67.7%;
+  z-index: -1;
+}
+.outer-border {
+  position: absolute;
+  top: 23.9%;
+  right: 15%;
+  width: 70.1%;
+  height: 69%;
+  z-index: -2;
+}
+.aotd-share {
+  position: absolute;
+  top: 28%;
+  right: 18.5%;
+  width: 4%;
+  height: auto%;
+  z-index: 0;
+}
+.shadow {
+  display:none;
+  position: absolute;
+  bottom: 6%;
+  right: 14.55%;
+  width: 71%;
+  height: auto%;
+  z-index: 0;
+}
+.aotd-heading {
+  position: absolute;
+  top: 27.5%;
+  left: 18.5%;
+  width: 20%;
+  height: auto%;
+  z-index: 0;
+}

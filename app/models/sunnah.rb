@@ -1,0 +1,2 @@
+class Sunnah < ApplicationRecord
+end

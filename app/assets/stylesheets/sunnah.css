@@ -1,0 +1,48 @@
+.sunnah-btn-clkd {
+  position: absolute;
+  top: 1.5%;
+  left: 27.2%;
+  width: 7.1%;
+  height: auto;
+  z-index: 1;
+}
+.search-bar {
+  position: absolute;
+  top: 29%;
+  left: 20%;
+  width: 60%;
+  height: 5%;
+  z-index: 0;
+}
+.keywords-text {
+  position: absolute;
+  top: 35%;
+  left: 21%;
+  width: 9%;
+  height: auto%;
+  z-index: 0;
+}
+.plus-button {
+  position: absolute;
+  top: 34.8%;
+  left: 29.7%;
+  width: 2.5%;
+  height: auto%;
+  z-index: 0;
+}
+.status {
+  position: absolute;
+  top: 35.3%;
+  right: 20.6%;
+  width: 9.5%;
+  height: auto%;
+  z-index: 0;
+}
+.auth-bar {
+  position: absolute;
+  top: 40%;
+  left: 20.9%;
+  width: 58.4%;
+  height: 5.4%;
+  z-index: 0;
+}

@@ -1,0 +1,75 @@
+.left-section-separator {
+  position: fixed;
+  top: 0;
+  left: 14.33%;
+  transform: translateX(-50%);
+  width: 0.21%;
+  height: 100vh;
+  background-color: #11587f;
+  z-index: -2;
+}
+.islamic-calendar {
+  position: absolute;
+  top: 7.5%;
+  left: 0.5%;
+  width: 2.3%;
+  height: auto;
+  z-index: 0;
+}
+.date-section-separator {
+  position: absolute;
+  top: 14.4%;
+  left: 0%;
+  width: 14.3%;
+  height: 0.35%;
+  background-color: #11587f;
+  z-index: 1;
+}
+.what-happened-today {
+  position: absolute;
+  top: 15.35%;
+  left: 0.3%;
+  width: 13.65%;
+  height: 40%;
+  z-index: 0;
+}
+.wht-heading {
+  position: absolute;
+  top: 16.9%;
+  left: 1.2%;
+  width: auto;
+  height: 7%;
+  z-index: 1;
+}
+.wht-share {
+  position: absolute;
+  top: 17.05%;
+  left: 11.85%;
+  width: auto;
+  height: 3.5%;
+  z-index: 0;
+}
+.hadith {
+  position: absolute;
+  top: 56%;
+  left: 0.3%;
+  width: 13.65%;
+  height: 37%;
+  z-index: 0;
+}
+.hadith-heading {
+  position: absolute;
+  top: 57.4%;
+  left: 1.2%;
+  width: auto;
+  height: 7%;
+  z-index: 0;
+}
+.hadith-share {
+  position: absolute;
+  top: 57.7%;
+  left: 11.85%;
+  width: auto;
+  height: 3.5%;
+  z-index: 0;
+}

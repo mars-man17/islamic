@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hadith: MyText
+  status: MyString
+  book: MyString
+  volume: MyString
+  isnad: MyText
+  adalah: MyText
+  irsal: MyText
+  tawatur: MyText
+  matn: MyText
+  asbabalwurud: MyText
+  tags: MyText
+  slug: MyString
+
+two:
+  hadith: MyText
+  status: MyString
+  book: MyString
+  volume: MyString
+  isnad: MyText
+  adalah: MyText
+  irsal: MyText
+  tawatur: MyText
+  matn: MyText
+  asbabalwurud: MyText
+  tags: MyText
+  slug: MyString

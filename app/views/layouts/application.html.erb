@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Islamic</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <a href="/sunnah">
+      <%= image_tag "navbar/sunnah-button.svg", alt: "sunnah button", class: "sunnah-button" %>
+    </a>
+    <a href="/daily">
+      <%= image_tag "navbar/daily-button.svg", alt: "daily button", class: "daily-button" %>
+    </a>
+    <a href="/">
+      <%= image_tag "navbar/icon.svg", alt: "icon", class: "icon" %>
+    </a>
+    <div class="navbar">
+      <%= image_tag "navbar/base.png", alt: "navbar"%>
+      <div class="navbar-top"></div>
+      <div class="navbar-separator"></div>
+      <%= image_tag "navbar/muftibot-button.svg", alt: "mutftibot button", class: "muftibot-button" %>
+      <%= image_tag "navbar/childrens-button.svg", alt: "children's button", class: "childrens-button" %>
+    </div>
+    
+    <div class="left-section">
+      <div class="left-section-separator"></div>
+      <%= image_tag "left-section/islamic-calendar.svg", alt: "islamic-calendar", class: "islamic-calendar" %>
+      <%= image_tag "left-section/what-happened-today.png", alt: "what-happened-today", class: "what-happened-today" %>
+      <%= image_tag "left-section/wht-heading.svg", alt: "what-happened-today-heading", class: "wht-heading" %>
+      <%= image_tag "left-section/wht-share.svg", alt: "what-happened-today-share", class: "wht-share" %>
+      <%= image_tag "left-section/hadith.png", alt: "hadith", class: "hadith" %>
+      <%= image_tag "left-section/hadith-heading.svg", alt: "hadith-heading", class: "hadith-heading" %>
+      <%= image_tag "left-section/hadith-share.svg", alt: "hadith-share", class: "hadith-share" %>
+      <div class="date-section-separator"></div>
+    </div>
+
+    <div class="main-section">
+       <%= image_tag "main-section/site-name.png", alt: "site-name", class: "site-name" %>
+       <%= image_tag "main-section/crescent.svg", alt: "crescent", class: "crescent" %>
+    </div>
+
+    <div class="right-section">
+       <%= image_tag "right-section/right-section.png", alt: "right-section", class: "right-section" %>
+       <div class="right-section-separator"></div>
+    </div>
+    
+    <div class="footer">
+      <%= image_tag "footer/footer.png", alt: "footer"%>
+      <div class="footer-bottom"></div>
+      <div class="footer-separator"></div>
+    </div>
+    
+    <%= yield %>
+
+  </body>
+</html>
